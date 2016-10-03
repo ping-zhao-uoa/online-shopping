@@ -1,0 +1,128 @@
+02-Oct-2016 18:42:33.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.5
+02-Oct-2016 18:42:33.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 31 2016 19:51:16 UTC
+02-Oct-2016 18:42:33.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.5.0
+02-Oct-2016 18:42:33.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+02-Oct-2016 18:42:33.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+02-Oct-2016 18:42:33.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+02-Oct-2016 18:42:33.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+02-Oct-2016 18:42:33.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+02-Oct-2016 18:42:33.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Oct-2016 18:42:33.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/pingz/Documents/software/apache-tomcat-8.5.5
+02-Oct-2016 18:42:33.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/pingz/Documents/software/apache-tomcat-8.5.5
+02-Oct-2016 18:42:33.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/pingz/Documents/software/apache-tomcat-8.5.5/conf/logging.properties
+02-Oct-2016 18:42:33.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Oct-2016 18:42:33.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Oct-2016 18:42:33.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/pingz/Documents/software/apache-tomcat-8.5.5
+02-Oct-2016 18:42:33.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/pingz/Documents/software/apache-tomcat-8.5.5
+02-Oct-2016 18:42:33.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/pingz/Documents/software/apache-tomcat-8.5.5/temp
+02-Oct-2016 18:42:33.378 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/pingz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+02-Oct-2016 18:42:33.489 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28080"]
+02-Oct-2016 18:42:33.518 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Oct-2016 18:42:33.520 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2016 18:42:33.521 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Oct-2016 18:42:33.521 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 404 ms
+02-Oct-2016 18:42:33.545 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+02-Oct-2016 18:42:33.545 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.5
+02-Oct-2016 18:42:33.552 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/docs
+02-Oct-2016 18:42:33.792 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/docs has finished in 239 ms
+02-Oct-2016 18:42:33.792 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/examples
+02-Oct-2016 18:42:34.035 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/examples has finished in 242 ms
+02-Oct-2016 18:42:34.035 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/host-manager
+02-Oct-2016 18:42:34.054 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/host-manager has finished in 19 ms
+02-Oct-2016 18:42:34.055 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/manager
+02-Oct-2016 18:42:34.069 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/manager has finished in 14 ms
+02-Oct-2016 18:42:34.069 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/ROOT
+02-Oct-2016 18:42:34.078 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/ROOT has finished in 9 ms
+02-Oct-2016 18:42:34.080 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-28080]
+02-Oct-2016 18:42:34.084 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+02-Oct-2016 18:42:34.084 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 563 ms
+02-Oct-2016 18:46:04.171 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp-1.0.0-SNAPSHOT.war
+02-Oct-2016 18:46:06.897 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2016 18:46:07.164 INFO [localhost-startStop-2] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.7 2014-03-12 18:11:31...
+02-Oct-2016 18:46:07.487 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp-1.0.0-SNAPSHOT.war has finished in 3,315 ms
+02-Oct-2016 18:47:28.025 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/cloudmanufacturingnlp-1.0.0-SNAPSHOT]
+02-Oct-2016 18:47:48.047 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp-1.0.0-SNAPSHOT.war
+02-Oct-2016 18:47:50.437 INFO [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2016 18:47:50.694 INFO [localhost-startStop-3] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.7 2014-03-12 18:11:31...
+02-Oct-2016 18:47:50.929 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp-1.0.0-SNAPSHOT.war has finished in 2,882 ms
+02-Oct-2016 18:58:11.668 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/cloudmanufacturingnlp-1.0.0-SNAPSHOT]
+02-Oct-2016 18:58:31.685 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp-1.0.0-SNAPSHOT.war
+02-Oct-2016 18:58:34.100 INFO [localhost-startStop-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2016 18:58:34.326 INFO [localhost-startStop-4] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.7 2014-03-12 18:11:31...
+02-Oct-2016 18:58:34.554 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp-1.0.0-SNAPSHOT.war has finished in 2,869 ms
+02-Oct-2016 22:29:02.784 INFO [http-nio-28080-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp.war
+02-Oct-2016 22:29:05.491 INFO [http-nio-28080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2016 22:29:05.705 INFO [http-nio-28080-exec-16] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.7 2014-03-12 18:11:31...
+02-Oct-2016 22:29:05.910 INFO [http-nio-28080-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp.war has finished in 3,126 ms
+02-Oct-2016 22:33:09.829 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/cloudmanufacturingnlp-1.0.0-SNAPSHOT]
+02-Oct-2016 22:42:37.072 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Oct-2016 22:42:37.072 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28080"]
+02-Oct-2016 22:42:37.128 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2016 22:42:37.180 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+02-Oct-2016 22:42:37.198 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28080"]
+02-Oct-2016 22:42:37.201 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2016 22:42:37.201 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28080"]
+02-Oct-2016 22:42:37.202 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2016 22:42:56.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.5
+02-Oct-2016 22:42:56.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 31 2016 19:51:16 UTC
+02-Oct-2016 22:42:56.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.5.0
+02-Oct-2016 22:42:56.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+02-Oct-2016 22:42:56.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+02-Oct-2016 22:42:56.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+02-Oct-2016 22:42:56.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+02-Oct-2016 22:42:56.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+02-Oct-2016 22:42:56.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Oct-2016 22:42:56.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/pingz/Documents/software/apache-tomcat-8.5.5
+02-Oct-2016 22:42:56.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/pingz/Documents/software/apache-tomcat-8.5.5
+02-Oct-2016 22:42:56.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/pingz/Documents/software/apache-tomcat-8.5.5/conf/logging.properties
+02-Oct-2016 22:42:56.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Oct-2016 22:42:56.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Oct-2016 22:42:56.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/pingz/Documents/software/apache-tomcat-8.5.5
+02-Oct-2016 22:42:56.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/pingz/Documents/software/apache-tomcat-8.5.5
+02-Oct-2016 22:42:56.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/pingz/Documents/software/apache-tomcat-8.5.5/temp
+02-Oct-2016 22:42:56.249 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/pingz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+02-Oct-2016 22:42:56.358 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28080"]
+02-Oct-2016 22:42:56.381 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Oct-2016 22:42:56.383 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2016 22:42:56.384 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Oct-2016 22:42:56.384 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 414 ms
+02-Oct-2016 22:42:56.408 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+02-Oct-2016 22:42:56.408 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.5
+02-Oct-2016 22:42:56.427 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp.war
+02-Oct-2016 22:42:59.258 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2016 22:42:59.537 INFO [localhost-startStop-1] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.7 2014-03-12 18:11:31...
+02-Oct-2016 22:42:59.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp.war has finished in 3,370 ms
+02-Oct-2016 22:42:59.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/docs
+02-Oct-2016 22:42:59.863 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/docs has finished in 14 ms
+02-Oct-2016 22:42:59.863 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/examples
+02-Oct-2016 22:43:00.178 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/examples has finished in 315 ms
+02-Oct-2016 22:43:00.178 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/host-manager
+02-Oct-2016 22:43:00.196 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/host-manager has finished in 18 ms
+02-Oct-2016 22:43:00.196 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/manager
+02-Oct-2016 22:43:00.212 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/manager has finished in 15 ms
+02-Oct-2016 22:43:00.212 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/ROOT
+02-Oct-2016 22:43:00.225 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/ROOT has finished in 12 ms
+02-Oct-2016 22:43:00.230 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-28080]
+02-Oct-2016 22:43:00.235 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+02-Oct-2016 22:43:00.235 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3850 ms
+02-Oct-2016 22:44:20.267 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp-1.0.0-SNAPSHOT.war
+02-Oct-2016 22:44:22.545 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Oct-2016 22:44:22.773 INFO [localhost-startStop-2] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.7 2014-03-12 18:11:31...
+02-Oct-2016 22:44:22.993 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp-1.0.0-SNAPSHOT.war has finished in 2,726 ms
+02-Oct-2016 22:44:33.498 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/cloudmanufacturingnlp-1.0.0-SNAPSHOT]
+02-Oct-2016 22:45:54.082 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/cloudmanufacturingnlp]
+02-Oct-2016 22:49:30.949 INFO [http-nio-28080-exec-12] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp.war
+02-Oct-2016 22:49:33.782 INFO [http-nio-28080-exec-12] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.7 2014-03-12 18:11:31...
+02-Oct-2016 22:49:33.990 INFO [http-nio-28080-exec-12] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp.war has finished in 3,041 ms
+02-Oct-2016 22:54:14.799 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/cloudmanufacturingnlp]
+02-Oct-2016 22:54:33.393 INFO [http-nio-28080-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp.war
+02-Oct-2016 22:54:35.890 INFO [http-nio-28080-exec-13] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.7 2014-03-12 18:11:31...
+02-Oct-2016 22:54:36.138 INFO [http-nio-28080-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/pingz/Documents/software/apache-tomcat-8.5.5/webapps/cloudmanufacturingnlp.war has finished in 2,745 ms
+02-Oct-2016 22:55:59.517 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Oct-2016 22:55:59.518 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28080"]
+02-Oct-2016 22:55:59.576 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2016 22:55:59.629 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+02-Oct-2016 22:55:59.651 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28080"]
+02-Oct-2016 22:55:59.653 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Oct-2016 22:55:59.653 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28080"]
+02-Oct-2016 22:55:59.654 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

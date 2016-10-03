@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="onlineshopping">
+<head>
+<meta charset="UTF-8">
+<title>Online Shopping</title>
+<script src="js/jquery-1.5.js"></script>
+<script src="js/jquery.entwine-dist.js"></script>
+<script src="js/angular.js"></script>
+<script src="js/online-shopping.js"></script>
+<script src="js/purchase-summary.js"></script>
+<link rel="stylesheet" type="text/css" href="css/onlineshopping.css">
+</head>
+<body>
+	<div id="outer">
+		<div class="title">Welcome to Our Online Shop</div>
+		<div id="onlineshopping">
+			<div id="stock">
+				<div class="label">Currently available in our shop:</div>
+				<div class="content">
+					<div class="row">
+						<span>Item A: </span> <span id="itemA" class="item"></span> <span>
+							left</span>
+					</div>
+					<div class="row">
+						<span>Item B: </span> <span id="itemB" class="item"></span> <span>
+							left</span>
+					</div>
+				</div>
+			</div>
+
+			<div id="place-order">
+				<div class="label">Your shopping:</div>
+				<div class="content">
+					<div class="row">
+						<span>Item A</span> <input type="text" size="10" id="itemA"></input>
+					</div>
+					<div class="row">
+						<span>Item B</span> <input type="text" size="10" id="itemB"></input>
+						<button type="button" id="buy-button">Buy</button>
+					</div>
+				</div>
+			</div>
+
+			<div id="purchase-summary">
+				<div class="label">Your purchase summary:</div>
+				<div class="content" ng-controller="SummaryController as mySummary">
+					<div class="row">
+						<span>Item A: </span> <span id="itemA" class="item">{{mySummary.total('itemA')}}</span>
+					</div>
+					<div class="row">
+						<span>Item B: </span> <span id="itemB" class="item">{{mySummary.total('itemB')}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+body {
+  padding: 40px 100px;
+}
+
+#outer {
+  	width: 100%;
+	height: 320px;
+	text-align: center;
+}
+
+#outer .title {
+	margin-bottom: 40px;
+	font-size: 30px;
+	text-shadow: 2px 2px #EFE6EB;
+}
+
+#onlineshopping {
+	display: inline-block;
+	text-align: left;
+}
+
+#onlineshopping .label {
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+#onlineshopping #stock {
+	margin-bottom: 30px;
+}
+
+#stock .item {
+	margin-left: 20px;
+	margin-right: 5px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#onlineshopping #place-order {
+	margin-bottom: 30px;
+}
+
+#place-order .row input {
+	margin-left: 20px;	
+}
+
+#place-order #buy-button {
+	background-color: #e0e0e0;
+	margin-left: 60px;
+	width: 80px;
+	height: 25px;
+}
+
+#onlineshopping #purchase-summary {
+	margin-bottom: 30px;
+}
+
+#purchase-summary .item {
+	margin-left: 20px;
+	margin-right: 5px;
+	font-style: italic;
+	font-weight: bold;
+}

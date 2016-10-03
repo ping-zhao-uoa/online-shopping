@@ -1,0 +1,170 @@
+04-Oct-2016 00:03:10.132 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/onlineshopping]
+04-Oct-2016 00:03:15.014 INFO [http-nio-28080-exec-206] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/pingz/Private/work/application/OrionHealth/output/apache-tomcat-8.5.5/webapps/onlineshopping.war
+04-Oct-2016 00:03:16.039 INFO [http-nio-28080-exec-206] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/pingz/Private/work/application/OrionHealth/output/apache-tomcat-8.5.5/webapps/onlineshopping.war has finished in 1,026 ms
+04-Oct-2016 00:06:52.683 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+04-Oct-2016 00:06:52.684 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28080"]
+04-Oct-2016 00:06:52.742 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+04-Oct-2016 00:06:52.795 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Oct-2016 00:06:52.838 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28080"]
+04-Oct-2016 00:06:52.841 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+04-Oct-2016 00:06:52.841 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28080"]
+04-Oct-2016 00:06:52.842 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+04-Oct-2016 00:56:34.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.5
+04-Oct-2016 00:56:34.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 31 2016 19:51:16 UTC
+04-Oct-2016 00:56:34.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.5.0
+04-Oct-2016 00:56:34.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+04-Oct-2016 00:56:34.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+04-Oct-2016 00:56:34.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+04-Oct-2016 00:56:34.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+04-Oct-2016 00:56:34.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+04-Oct-2016 00:56:34.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Oct-2016 00:56:34.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5
+04-Oct-2016 00:56:34.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5
+04-Oct-2016 00:56:34.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/conf/logging.properties
+04-Oct-2016 00:56:34.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2016 00:56:34.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2016 00:56:34.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xdebug
+04-Oct-2016 00:56:34.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
+04-Oct-2016 00:56:34.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5
+04-Oct-2016 00:56:34.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5
+04-Oct-2016 00:56:34.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/temp
+04-Oct-2016 00:56:34.970 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/pingz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+04-Oct-2016 00:56:35.092 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28080"]
+04-Oct-2016 00:56:35.117 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Oct-2016 00:56:35.121 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+04-Oct-2016 00:56:35.122 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Oct-2016 00:56:35.123 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 523 ms
+04-Oct-2016 00:56:35.157 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Oct-2016 00:56:35.157 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.5
+04-Oct-2016 00:56:35.180 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/onlineshopping.war
+04-Oct-2016 00:56:36.149 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2016 00:56:36.805 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/onlineshopping.war has finished in 1,624 ms
+04-Oct-2016 00:56:36.806 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/docs
+04-Oct-2016 00:56:36.817 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/docs has finished in 11 ms
+04-Oct-2016 00:56:36.817 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/examples
+04-Oct-2016 00:56:37.027 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/examples has finished in 210 ms
+04-Oct-2016 00:56:37.028 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/host-manager
+04-Oct-2016 00:56:37.043 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/host-manager has finished in 16 ms
+04-Oct-2016 00:56:37.044 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/manager
+04-Oct-2016 00:56:37.056 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/manager has finished in 12 ms
+04-Oct-2016 00:56:37.056 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/ROOT
+04-Oct-2016 00:56:37.064 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/ROOT has finished in 8 ms
+04-Oct-2016 00:56:37.067 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-28080]
+04-Oct-2016 00:56:37.071 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+04-Oct-2016 00:56:37.072 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1949 ms
+04-Oct-2016 00:59:04.096 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28080"]
+04-Oct-2016 00:59:04.156 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+04-Oct-2016 00:59:04.208 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Oct-2016 00:59:04.237 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28080"]
+04-Oct-2016 00:59:04.240 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+04-Oct-2016 00:59:04.241 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28080"]
+04-Oct-2016 00:59:04.241 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+04-Oct-2016 00:59:15.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.5
+04-Oct-2016 00:59:15.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 31 2016 19:51:16 UTC
+04-Oct-2016 00:59:15.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.5.0
+04-Oct-2016 00:59:15.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+04-Oct-2016 00:59:15.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+04-Oct-2016 00:59:15.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+04-Oct-2016 00:59:15.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+04-Oct-2016 00:59:15.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+04-Oct-2016 00:59:15.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Oct-2016 00:59:15.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5
+04-Oct-2016 00:59:15.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5
+04-Oct-2016 00:59:15.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/conf/logging.properties
+04-Oct-2016 00:59:15.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2016 00:59:15.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2016 00:59:15.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xdebug
+04-Oct-2016 00:59:15.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
+04-Oct-2016 00:59:15.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5
+04-Oct-2016 00:59:15.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5
+04-Oct-2016 00:59:15.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/temp
+04-Oct-2016 00:59:15.861 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/pingz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+04-Oct-2016 00:59:15.969 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28080"]
+04-Oct-2016 00:59:15.991 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Oct-2016 00:59:15.993 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+04-Oct-2016 00:59:15.994 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Oct-2016 00:59:15.994 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 422 ms
+04-Oct-2016 00:59:16.019 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Oct-2016 00:59:16.019 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.5
+04-Oct-2016 00:59:16.037 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/onlineshopping.war
+04-Oct-2016 00:59:16.796 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2016 00:59:17.444 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/onlineshopping.war has finished in 1,406 ms
+04-Oct-2016 00:59:17.444 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/docs
+04-Oct-2016 00:59:17.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/docs has finished in 11 ms
+04-Oct-2016 00:59:17.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/examples
+04-Oct-2016 00:59:17.675 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/examples has finished in 220 ms
+04-Oct-2016 00:59:17.675 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/host-manager
+04-Oct-2016 00:59:17.690 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/host-manager has finished in 14 ms
+04-Oct-2016 00:59:17.690 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/manager
+04-Oct-2016 00:59:17.702 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/manager has finished in 12 ms
+04-Oct-2016 00:59:17.702 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/ROOT
+04-Oct-2016 00:59:17.716 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/ROOT has finished in 14 ms
+04-Oct-2016 00:59:17.719 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-28080]
+04-Oct-2016 00:59:17.725 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+04-Oct-2016 00:59:17.726 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1731 ms
+04-Oct-2016 01:03:18.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.5
+04-Oct-2016 01:03:18.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 31 2016 19:51:16 UTC
+04-Oct-2016 01:03:18.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.5.0
+04-Oct-2016 01:03:18.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+04-Oct-2016 01:03:18.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+04-Oct-2016 01:03:18.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+04-Oct-2016 01:03:18.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+04-Oct-2016 01:03:18.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+04-Oct-2016 01:03:18.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Oct-2016 01:03:18.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5
+04-Oct-2016 01:03:18.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5
+04-Oct-2016 01:03:18.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/conf/logging.properties
+04-Oct-2016 01:03:18.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2016 01:03:18.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2016 01:03:18.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xdebug
+04-Oct-2016 01:03:18.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
+04-Oct-2016 01:03:18.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5
+04-Oct-2016 01:03:18.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5
+04-Oct-2016 01:03:18.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/temp
+04-Oct-2016 01:03:18.243 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/pingz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+04-Oct-2016 01:03:18.357 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28080"]
+04-Oct-2016 01:03:18.378 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Oct-2016 01:03:18.381 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+04-Oct-2016 01:03:18.382 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Oct-2016 01:03:18.382 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 466 ms
+04-Oct-2016 01:03:18.406 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Oct-2016 01:03:18.406 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.5
+04-Oct-2016 01:03:18.425 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/onlineshopping.war
+04-Oct-2016 01:03:19.170 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2016 01:03:19.819 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/onlineshopping.war has finished in 1,393 ms
+04-Oct-2016 01:03:19.819 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/docs
+04-Oct-2016 01:03:19.830 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/docs has finished in 11 ms
+04-Oct-2016 01:03:19.830 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/examples
+04-Oct-2016 01:03:20.062 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/examples has finished in 232 ms
+04-Oct-2016 01:03:20.062 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/host-manager
+04-Oct-2016 01:03:20.079 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/host-manager has finished in 17 ms
+04-Oct-2016 01:03:20.079 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/manager
+04-Oct-2016 01:03:20.092 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/manager has finished in 13 ms
+04-Oct-2016 01:03:20.093 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/ROOT
+04-Oct-2016 01:03:20.108 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/ROOT has finished in 15 ms
+04-Oct-2016 01:03:20.111 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-28080]
+04-Oct-2016 01:03:20.116 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+04-Oct-2016 01:03:20.117 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1735 ms
+04-Oct-2016 01:17:00.964 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/onlineshopping]
+04-Oct-2016 01:17:00.968 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardWrapper.unload InstanceManager.destroy() for servlet [Online Shopping Servlet] threw exception
+ java.lang.NullPointerException
+	at org.apache.catalina.core.DefaultInstanceManager.destroyInstance(DefaultInstanceManager.java:165)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1377)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5399)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:815)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:745)
+
+04-Oct-2016 01:17:25.890 INFO [http-nio-28080-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/onlineshopping.war
+04-Oct-2016 01:17:27.071 INFO [http-nio-28080-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/pingz/Private/work/application/OrionHealth/upload/apache-tomcat-8.5.5/webapps/onlineshopping.war has finished in 1,181 ms
